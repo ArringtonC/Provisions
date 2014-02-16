@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C546993018B02A6C00F2CDA7 /* pastor-walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C546992F18B02A6C00F2CDA7 /* pastor-walker.jpg */; };
+		C546993318B0339C00F2CDA7 /* ChurchMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C546993218B0339C00F2CDA7 /* ChurchMessageViewController.m */; };
+		C546993718B0357F00F2CDA7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546993618B0357F00F2CDA7 /* AudioToolbox.framework */; };
+		C546993918B0358700F2CDA7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546993818B0358700F2CDA7 /* CFNetwork.framework */; };
+		C546993B18B0359A00F2CDA7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546993A18B0359A00F2CDA7 /* CoreLocation.framework */; };
+		C546993D18B035AB00F2CDA7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C546993C18B035AB00F2CDA7 /* libz.dylib */; };
+		C546993F18B035E700F2CDA7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546993E18B035E700F2CDA7 /* MobileCoreServices.framework */; };
+		C546994118B035EF00F2CDA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546994018B035EF00F2CDA7 /* QuartzCore.framework */; };
+		C546994318B035F700F2CDA7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546994218B035F700F2CDA7 /* Security.framework */; };
+		C546994518B0360100F2CDA7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546994418B0360100F2CDA7 /* StoreKit.framework */; };
+		C546994718B0360D00F2CDA7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546994618B0360D00F2CDA7 /* SystemConfiguration.framework */; };
+		C546994918B0371E00F2CDA7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546994818B0371E00F2CDA7 /* Parse.framework */; };
 		C59D62B918AD827900984A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59D62B818AD827900984A7C /* Foundation.framework */; };
 		C59D62BB18AD827900984A7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59D62BA18AD827900984A7C /* CoreGraphics.framework */; };
 		C59D62BD18AD827900984A7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59D62BC18AD827900984A7C /* UIKit.framework */; };
@@ -34,6 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C546992F18B02A6C00F2CDA7 /* pastor-walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pastor-walker.jpg"; sourceTree = "<group>"; };
+		C546993118B0339C00F2CDA7 /* ChurchMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChurchMessageViewController.h; sourceTree = "<group>"; };
+		C546993218B0339C00F2CDA7 /* ChurchMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChurchMessageViewController.m; sourceTree = "<group>"; };
+		C546993618B0357F00F2CDA7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C546993818B0358700F2CDA7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C546993A18B0359A00F2CDA7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C546993C18B035AB00F2CDA7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C546993E18B035E700F2CDA7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C546994018B035EF00F2CDA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C546994218B035F700F2CDA7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C546994418B0360100F2CDA7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C546994618B0360D00F2CDA7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C546994818B0371E00F2CDA7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		C59D62B518AD827900984A7C /* Provisions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Provisions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D62B818AD827900984A7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C59D62BA18AD827900984A7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +85,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C546994718B0360D00F2CDA7 /* SystemConfiguration.framework in Frameworks */,
+				C546994518B0360100F2CDA7 /* StoreKit.framework in Frameworks */,
+				C546994318B035F700F2CDA7 /* Security.framework in Frameworks */,
+				C546994118B035EF00F2CDA7 /* QuartzCore.framework in Frameworks */,
+				C546993F18B035E700F2CDA7 /* MobileCoreServices.framework in Frameworks */,
+				C546993D18B035AB00F2CDA7 /* libz.dylib in Frameworks */,
+				C546994918B0371E00F2CDA7 /* Parse.framework in Frameworks */,
+				C546993B18B0359A00F2CDA7 /* CoreLocation.framework in Frameworks */,
 				C59D62BB18AD827900984A7C /* CoreGraphics.framework in Frameworks */,
+				C546993918B0358700F2CDA7 /* CFNetwork.framework in Frameworks */,
+				C546993718B0357F00F2CDA7 /* AudioToolbox.framework in Frameworks */,
 				C59D62BD18AD827900984A7C /* UIKit.framework in Frameworks */,
 				C59D62B918AD827900984A7C /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +136,16 @@
 		C59D62B718AD827900984A7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C546994818B0371E00F2CDA7 /* Parse.framework */,
+				C546994618B0360D00F2CDA7 /* SystemConfiguration.framework */,
+				C546994418B0360100F2CDA7 /* StoreKit.framework */,
+				C546994218B035F700F2CDA7 /* Security.framework */,
+				C546994018B035EF00F2CDA7 /* QuartzCore.framework */,
+				C546993E18B035E700F2CDA7 /* MobileCoreServices.framework */,
+				C546993C18B035AB00F2CDA7 /* libz.dylib */,
+				C546993A18B0359A00F2CDA7 /* CoreLocation.framework */,
+				C546993818B0358700F2CDA7 /* CFNetwork.framework */,
+				C546993618B0357F00F2CDA7 /* AudioToolbox.framework */,
 				C59D62B818AD827900984A7C /* Foundation.framework */,
 				C59D62BA18AD827900984A7C /* CoreGraphics.framework */,
 				C59D62BC18AD827900984A7C /* UIKit.framework */,
@@ -115,9 +160,12 @@
 				C59D62C718AD827900984A7C /* AppDelegate.h */,
 				C59D62C818AD827900984A7C /* AppDelegate.m */,
 				C59D62CA18AD827900984A7C /* Main.storyboard */,
+				C546993118B0339C00F2CDA7 /* ChurchMessageViewController.h */,
+				C546993218B0339C00F2CDA7 /* ChurchMessageViewController.m */,
 				C59D62CD18AD827900984A7C /* ViewController.h */,
 				C59D62CE18AD827900984A7C /* ViewController.m */,
 				C59D62D018AD827900984A7C /* Images.xcassets */,
+				C546992F18B02A6C00F2CDA7 /* pastor-walker.jpg */,
 				C59D62BF18AD827900984A7C /* Supporting Files */,
 			);
 			path = Provisions;
@@ -199,6 +247,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Arrington Copeland";
 				TargetAttributes = {
+					C59D62B418AD827900984A7C = {
+						DevelopmentTeam = 5W2ABGERJR;
+					};
 					C59D62D518AD827900984A7C = {
 						TestTargetID = C59D62B418AD827900984A7C;
 					};
@@ -228,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C546993018B02A6C00F2CDA7 /* pastor-walker.jpg in Resources */,
 				C59D62D118AD827900984A7C /* Images.xcassets in Resources */,
 				C59D62C318AD827900984A7C /* InfoPlist.strings in Resources */,
 				C59D62CC18AD827900984A7C /* Main.storyboard in Resources */,
@@ -250,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C59D62CF18AD827900984A7C /* ViewController.m in Sources */,
+				C546993318B0339C00F2CDA7 /* ChurchMessageViewController.m in Sources */,
 				C59D62C918AD827900984A7C /* AppDelegate.m in Sources */,
 				C59D62C518AD827900984A7C /* main.m in Sources */,
 			);
@@ -378,10 +431,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.arringtoncopeland.Provisions";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.arringtoncopeland.Provisions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/arringtoncopeland/Documents/Apps/Provisions,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Provisions/Provisions-Prefix.pch";
 				INFOPLIST_FILE = "Provisions/Provisions-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "991BC9D6-3731-4234-A5C1-E4EBE1BDA7DC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +451,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.arringtoncopeland.Provisions";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.arringtoncopeland.Provisions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/arringtoncopeland/Documents/Apps/Provisions,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Provisions/Provisions-Prefix.pch";
 				INFOPLIST_FILE = "Provisions/Provisions-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "991BC9D6-3731-4234-A5C1-E4EBE1BDA7DC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +527,7 @@
 				C59D62E918AD827A00984A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C59D62EA18AD827A00984A7C /* Build configuration list for PBXNativeTarget "ProvisionsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +536,7 @@
 				C59D62EC18AD827A00984A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
