@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50219B618B5F1990002A2AF /* MessageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50219B518B5F1990002A2AF /* MessageDetailViewController.m */; };
 		C546993018B02A6C00F2CDA7 /* pastor-walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C546992F18B02A6C00F2CDA7 /* pastor-walker.jpg */; };
 		C546993318B0339C00F2CDA7 /* ChurchMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C546993218B0339C00F2CDA7 /* ChurchMessageViewController.m */; };
 		C546993718B0357F00F2CDA7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546993618B0357F00F2CDA7 /* AudioToolbox.framework */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C50219B418B5F1990002A2AF /* MessageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailViewController.h; sourceTree = "<group>"; };
+		C50219B518B5F1990002A2AF /* MessageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailViewController.m; sourceTree = "<group>"; };
 		C546992F18B02A6C00F2CDA7 /* pastor-walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pastor-walker.jpg"; sourceTree = "<group>"; };
 		C546993118B0339C00F2CDA7 /* ChurchMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChurchMessageViewController.h; sourceTree = "<group>"; };
 		C546993218B0339C00F2CDA7 /* ChurchMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChurchMessageViewController.m; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				C59D62C718AD827900984A7C /* AppDelegate.h */,
 				C59D62C818AD827900984A7C /* AppDelegate.m */,
 				C59D62CA18AD827900984A7C /* Main.storyboard */,
+				C50219B418B5F1990002A2AF /* MessageDetailViewController.h */,
+				C50219B518B5F1990002A2AF /* MessageDetailViewController.m */,
 				C546993118B0339C00F2CDA7 /* ChurchMessageViewController.h */,
 				C546993218B0339C00F2CDA7 /* ChurchMessageViewController.m */,
 				C59D62CD18AD827900984A7C /* ViewController.h */,
@@ -304,6 +309,7 @@
 				C59D62CF18AD827900984A7C /* ViewController.m in Sources */,
 				C546993318B0339C00F2CDA7 /* ChurchMessageViewController.m in Sources */,
 				C59D62C918AD827900984A7C /* AppDelegate.m in Sources */,
+				C50219B618B5F1990002A2AF /* MessageDetailViewController.m in Sources */,
 				C59D62C518AD827900984A7C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

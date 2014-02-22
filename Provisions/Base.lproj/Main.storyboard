@@ -53,7 +53,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40z-Yq-VgG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40z-Yq-VgG">
                                 <rect key="frame" x="20" y="71" width="300" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -61,7 +61,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LIA-yC-0mM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIA-yC-0mM">
                                 <rect key="frame" x="20" y="246" width="300" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -69,21 +69,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Sunday Mornings 10:00 am" translatesAutoresizingMaskIntoConstraints="NO" id="2aL-AM-fNI">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Sunday Mornings 10:00 am" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aL-AM-fNI">
                                 <rect key="frame" x="114" y="390" width="260" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="2906 E-Pike Avenue  Huntsville, Al" translatesAutoresizingMaskIntoConstraints="NO" id="lzO-sa-z6z">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="2906 E-Pike Avenue  Huntsville, Al" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzO-sa-z6z">
                                 <rect key="frame" x="112" y="419" width="130" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="256-859-9323 vwalker816@aol.com" translatesAutoresizingMaskIntoConstraints="NO" id="kox-iu-Lvd">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="256-859-9323 vwalker816@aol.com" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kox-iu-Lvd">
                                 <rect key="frame" x="114" y="463" width="133" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -93,27 +93,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="g9B-KG-jjD"/>
+                    <navigationItem key="navigationItem" title="Home" id="NRB-G1-pMC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCe-Db-IoD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="336" y="-280"/>
+            <point key="canvasLocation" x="862" y="-280"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="MuN-P0-Aeu">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="8g7-dP-siu" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="zt6-Fh-n5Z">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="xs3-ou-fX4" kind="relationship" relationship="viewControllers" id="4wh-Qi-3o3"/>
-                        <segue destination="QkJ-bp-ONB" kind="relationship" relationship="viewControllers" id="4HH-iG-b6d"/>
-                        <segue destination="Zzg-iQ-koI" kind="relationship" relationship="viewControllers" id="fZm-Vb-Afg"/>
-                        <segue destination="d0F-2G-MwG" kind="relationship" relationship="viewControllers" id="dQd-jr-h01"/>
+                        <segue destination="F5O-wj-247" kind="relationship" relationship="viewControllers" id="4wh-Qi-3o3"/>
+                        <segue destination="u3b-ke-bly" kind="relationship" relationship="viewControllers" id="4HH-iG-b6d"/>
+                        <segue destination="Wat-7r-es2" kind="relationship" relationship="viewControllers" id="fZm-Vb-Afg"/>
+                        <segue destination="rBx-76-ShH" kind="relationship" relationship="viewControllers" id="dQd-jr-h01"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D7I-qB-Ng7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -133,35 +133,35 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pastor-walker.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S5d-eB-TV6">
-                                <rect key="frame" x="42" y="20" width="237" height="253"/>
+                                <rect key="frame" x="48" y="63" width="237" height="264"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pastor Vernessa F. Walker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCg-Rv-8gP">
-                                <rect key="frame" x="61" y="295" width="198" height="21"/>
+                                <rect key="frame" x="61" y="335" width="198" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1F-YS-BGA">
-                                <rect key="frame" x="10" y="330" width="300" height="168"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1F-YS-BGA">
+                                <rect key="frame" x="10" y="364" width="300" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Pastor Walker is the founder of Provisions for the Redeemed Christian Center aka Vernessa Walker Ministries. She is the author of the book, ”It’s Time To Claim Your Promise”. She has hosted her own television and radio programs called Provisions for the Redeemed.
+                                <string key="text">Pastor Walker is the founder of Provisions for the Redeemed Christian Center aka Vernessa Walker Ministries. She is the author of the book, ”It’s Time To Claim Your Promise”. She has hosted her own television and radio programs called Provisions for the Redeemed.
 
 She was born again and baptized at the age twelve at Big Indian Creek Primitive Baptist Church. Under the leadership of Elder Michael Hartwell in July 1988 she preached her first sermon. While there she held a position of Associate Minister, Sunday School teacher, Youth Advisor and participated in Prison Ministry. She implemented Children’s Church for Indian Creek as well as other sister churches.
 
-She is the seventh of eight children. She was born to Johnie Walker and Ida Mae Pride Walker. She attended the University of Alabama in Huntsville and Athens State College. She has a Bachelor’s of Science degree in Business Administration with a minor in Procurement and Acqusition Management. She also has a Master’s Degree in Theology.</mutableString>
+She is the seventh of eight children. She was born to Johnie Walker and Ida Mae Pride Walker. She attended the University of Alabama in Huntsville and Athens State College. She has a Bachelor’s of Science degree in Business Administration with a minor in Procurement and Acqusition Management. She also has a Master’s Degree in Theology.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pastor Biography" id="Fiw-Ak-Hm3"/>
+                    <navigationItem key="navigationItem" title="Pastor Biography" id="Nt3-ca-DwD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qYg-iy-WXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="336" y="371"/>
+            <point key="canvasLocation" x="862" y="371"/>
         </scene>
         <!--View Controller - Statement of Faith-->
         <scene sceneID="I3Z-RQ-wug">
@@ -181,11 +181,11 @@ She is the seventh of eight children. She was born to Johnie Walker and Ida Mae 
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ing-SE-eMC">
-                                <rect key="frame" x="11" y="49" width="299" height="473"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ing-SE-eMC">
+                                <rect key="frame" x="11" y="63" width="299" height="473"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">We believe that there is one God revealed in three persons; Father, Son and Holy Spirit, which is the creator of all things.
+                                <string key="text">We believe that there is one God revealed in three persons; Father, Son and Holy Spirit, which is the creator of all things.
 
 We believe that Jesus Christ is both divine and human. That he is of God and came in the flesh through virgin birth.
 
@@ -199,18 +199,18 @@ We believe that through the redemptive work we were given access to divine heali
 
 We believe in the water baptism and the baptism in the Holy Spirit with evidence of speaking in tongues, which is available to all believers, as well as the gifts of the Spirit.
 
-We believe that all scripture, both Old and New Testament is the inspired Word of God.</mutableString>
+We believe that all scripture, both Old and New Testament is the inspired Word of God.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Statement of Faith" id="itb-by-N0L"/>
+                    <navigationItem key="navigationItem" title="Statement of Faith" id="DT1-XG-a9r"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mok-Xq-1Qn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333" y="1015"/>
+            <point key="canvasLocation" x="859" y="1015"/>
         </scene>
         <!--Church Message View Controller - Church Message-->
         <scene sceneID="iuM-Pj-nxa">
@@ -221,13 +221,16 @@ We believe that all scripture, both Old and New Testament is the inspired Word o
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="WTK-Cv-XMI">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="WTK-Cv-XMI">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WTK-Cv-XMI" id="JRS-Lx-mn2">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="8Nc-DQ-BSX" kind="push" identifier="showMessageDetail" id="bhC-Vz-DDe"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -235,14 +238,121 @@ We believe that all scripture, both Old and New Testament is the inspired Word o
                             <outlet property="delegate" destination="d0F-2G-MwG" id="Md9-Yb-HUz"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Church Message" id="9LU-Mr-hMr"/>
+                    <navigationItem key="navigationItem" title="Church Message" id="fPN-bw-TPb"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gzf-gV-wkp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="1707"/>
+        </scene>
+        <!--Message Detail View Controller - Church Message-->
+        <scene sceneID="OBz-lx-79H">
+            <objects>
+                <viewController id="8Nc-DQ-BSX" customClass="MessageDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fuN-32-F4I"/>
+                        <viewControllerLayoutGuide type="bottom" id="PIi-c0-bat"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T3W-TL-Cne">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="vou-dP-RpB">
+                                <rect key="frame" x="20" y="84" width="280" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Church Message" id="9VB-B5-74D"/>
+                    <connections>
+                        <outlet property="messageLabel" destination="vou-dP-RpB" id="DgX-ww-OiB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="993-K4-Bq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1347" y="1707"/>
+        </scene>
+        <!--Navigation Controller - Home-->
+        <scene sceneID="GPZ-ar-p25">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="F5O-wj-247" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="Shape" id="g9B-KG-jjD"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Vo-fb-bht">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xs3-ou-fX4" kind="relationship" relationship="rootViewController" id="moQ-ll-3NN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X1J-am-vny" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="-280"/>
+        </scene>
+        <!--Navigation Controller - Pastor Biography-->
+        <scene sceneID="ldf-Jd-r7h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="u3b-ke-bly" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pastor Biography" image="Shape" id="Fiw-Ak-Hm3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4W0-5R-Rca">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QkJ-bp-ONB" kind="relationship" relationship="rootViewController" id="0Im-FF-rIF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XRH-pR-l9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="371"/>
+        </scene>
+        <!--Navigation Controller - Statement of Faith-->
+        <scene sceneID="w3u-qC-obN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wat-7r-es2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Statement of Faith" image="Shape" id="itb-by-N0L"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x2k-df-SLz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Zzg-iQ-koI" kind="relationship" relationship="rootViewController" id="g6S-Xb-rTz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vld-vs-V1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="333" y="1015"/>
+        </scene>
+        <!--Navigation Controller - Church Message-->
+        <scene sceneID="AuY-pM-8no">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rBx-76-ShH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Church Message" image="Shape" id="9LU-Mr-hMr"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OjJ-2a-jhD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d0F-2G-MwG" kind="relationship" relationship="rootViewController" id="hae-s0-xyb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rid-56-E0O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="336" y="1707"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Shape" width="16" height="14"/>
         <image name="pastor-walker.jpg" width="288" height="362"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

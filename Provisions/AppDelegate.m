@@ -14,6 +14,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundColor:[UIColor blueColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor yellowColor]}];
+//    [self.navigationController.navigationBar setBarTintColor:[UIColor yellowColor]];
     [[UITabBar appearance] setTintColor:[UIColor yellowColor]];
     [[UITabBar appearance] setBarTintColor:[UIColor blueColor]];
     
@@ -21,6 +25,7 @@
                   clientKey:@"m96QzoxbmRz05I9LqDOMfuJOLFKaWbLJbsid8EZW"];
     
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     
     [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
      UIRemoteNotificationTypeAlert|

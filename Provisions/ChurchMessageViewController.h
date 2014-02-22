@@ -11,5 +11,6 @@
 
 @interface ChurchMessageViewController : UITableViewController
 @property(strong, nonatomic) NSArray *titlesArray;
+@property(strong, nonatomic) NSMutableArray *titleArray;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "ChurchMessageViewController.h"
+#import "MessageDetailViewController.h"
 
 @interface ChurchMessageViewController ()
 
@@ -119,16 +120,22 @@
 }
 */
 
-/*
-#pragma mark - Navigation
 
-// In a story board-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if([segue.identifier isEqualToString:@"showMessageDetail"]){
+        MessageDetailViewController *destViewController = segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        PFObject *tempObject = [_titlesArray objectAtIndex:indexPath.row];
+        destViewController.messageName = [tempObject objectForKey:@"cellTitle"];
+        destViewController.hidesBottomBarWhenPushed = YES;
+    }
 }
 
- */
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//    
+//        [self performSegueWithIdentifier:@"showMessageDetail" sender:self];
+//    
+//}
 
 @end
